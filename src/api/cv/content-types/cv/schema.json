@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "cvs",
+  "info": {
+    "singularName": "cv",
+    "pluralName": "cvs",
+    "displayName": "CV"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cv_information": {
+      "type": "richtext",
+      "default": "Currently Unavailable"
+    }
+  }
+}

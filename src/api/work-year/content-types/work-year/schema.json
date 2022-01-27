@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_years",
+  "info": {
+    "singularName": "work-year",
+    "pluralName": "work-years",
+    "displayName": "Work_Year"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Information": {
+      "type": "richtext"
+    },
+    "Photos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
