@@ -4,7 +4,8 @@
   "info": {
     "singularName": "work-year",
     "pluralName": "work-years",
-    "displayName": "Work_Year"
+    "displayName": "Work_Year",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,13 +16,22 @@
       "type": "richtext"
     },
     "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
     }
   }
 }
